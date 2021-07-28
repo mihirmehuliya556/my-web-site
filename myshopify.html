@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myshopify</title>
+	<link rel="stylesheet" type="text/css" href="css\1.css">
+	<link rel="stylesheet" type="text/css" href="css\media.css">
+	<link rel="stylesheet" type="text/css" href="css\all.min.css">
+	<link rel="stylesheet" type="text/css" href="css\animate.css">
+	<link rel="stylesheet" type="text/css" href="webfonts.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function (){
+			$('.togglee').click(function(){
+				$('.menuu').slideToggle("");
+			});
+			$(window).resize(function(){
+				if ($(window).width() > 992) {
+					$('.menuu').show();
+				} else {
+					$('.menuu').hide();
+				}
+			})
+		})
+	</script>
+
+	<!-- <owl carousel> -->
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+ 
+			$("#owl-demo").owlCarousel({
+			
+			    navigation : true,
+			    slideSpeed : 1,
+			    paginationSpeed : 800,
+			    singleItem:true,
+			    pagination:true,
+			    rewindSpeed: 1,
+			    autoPlay:true,
+			});
+ 
+		});
+		$(document).ready(function() {
+ 
+  $("#owl-demo1").owlCarousel({
+ 
+      autoPlay: 3000,
+      items : 5,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+	});
+	</script>
+	<style type="text/css">
+		#owl-demo .item img{
+		    display: block;
+		    width: 100%;
+		    z-index: -1;
+		    height: auto;
+		}
+		#owl-demo1 .item{
+		  margin: 0px;
+		}
+		#owl-demo1 .item img{
+		  display: block;
+		  width: 60%;
+		  height: auto;
+		}
+	</style>
+</head>
+<body>
+<div class="container-fluid p-0">
+	<div class="main2">
+		<div class="togglee line_h">
+			<img src="img/menu_black_24dp.svg">
+		</div>
+		<div class="line_h mx-5">
+			<img class="ml-5" src="img\logo_200x.png">
+			<ul class="menuu">
+				<li><a href="myshopify.html" class="red">HOME</a></li>
+				<li class="bot">
+					<a href="" class="red">COURSES
+						<ul class="pro">
+							<li><a class="red" href="contact-us.html">contact-us</a></li>
+							<li><a class="red" href="faq.html">faq</a></li><br>
+							<li><a class="red" href="face-serums.html">face-serums</a></li>
+							<li><a class="red" href="satin-shirt.html">satin-shirt</a></li><br>
+							<li><a class="red" href="privacy-policy.html">privacy-policy</a></li>
+							<li><a class="red" href="about-us.html">about-us</a></li><br>
+							<li><a class="red" href="best-sellers.html">best-sellers</a></li>
+							<li><a class="red" href="collections.html">collections</a></li><br>
+						</ul>
+					</a>
+				</li>
+				<li><a href="" class="red">ACTIVITIES</a></li>
+				<li><a href="" class="red">BLOG</a></li>
+				<li><a href="" class="red">KNOW US</a></li>
+				<li><a href="" class="red">GET IN TOUCH</a></li>
+				<i class="fas fa-search ml-5 red"></i>
+				<i class="fab fa-facebook-f pl-3 red"></i>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="container-fluid p-0 position-relative">
+	<div id="owl-demo" class="owl-carousel owl-theme">
+		<div class="item"><img  src="img\slideshow-2_2048x.jpg" width="100%">
+			<div class="position-absolute cood">
+				<h1 class="display-4">Hair Repair<br>Cream Collection</h1>
+				<h5 class="text-muted my-3">Excepteur sint occaecat cupidatat non proident</h5>
+				<h5 class="border border-dark gogo w-75 d-flex pl-5 py-3">Shop The Essentials
+					<i class="fas fa-arrow-right d-none pt-1 pl-3 "></i>
+				</h4>
+			</div>
+		</div>
+		<div class="item"><img  src="https://cdn.shopify.com/s/files/1/0563/2589/8415/files/slideshow-1_2048x.jpg?v=1620897684" width="100%">
+		</div>
+		<div class="item"><img  src="https://cdn.shopify.com/s/files/1/0563/2589/8415/files/slideshow-3_2048x.jpg?v=1620897705" width="100%">
+		</div> 
+	</div>
+</div>
+ <div class="container-fluid p-0 animate__animated animate__backInDown wow">
+	<div class="row m-0 w-100">
+		<div class="col-lg-4 col-md-12 p-0 tot">
+			<div class="box_2">
+				<img class="car position-relative" src="img\banner_1_720x.jpg" width="100%" height="100%">
+				<div class="position-absolute" style="bottom: 10%;left: 25%;">
+					<button class="py-2 px-5 border border-white d-flex gogo">Organic Skincare Collection
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12 p-0 tot">
+			<div class="box_2">
+				<img class="car position-relative" src="img\banner_2_720x.jpg" width="100%">
+				<div class="position-absolute" style="bottom: 10%;left: 25%;">
+					<button class="py-2 px-5 border border-white d-flex gogo">Organic Skincare Collection
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12 p-0 tot">
+			<div class="box_2">
+				<img class="car position-relative" src="img\banner_3_720x.jpg" width="100%">
+				<div class="position-absolute" style="bottom: 10%;left: 25%;">
+					<button class="py-2 px-5 border border-white d-flex gogo">Organic Skincare Collection
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid p-0 py-5">
+	<div class="row w-100">
+		<div class="col-lg-3 col-md-6 ind animate__animated animate__lightSpeedInLeft wow">
+			<img src="img\p1_120x.png" class="mb-3 position-relative">
+			<div class="w-75 ml-5 text-center box_2">
+				<div class="car">
+					<h5>Free Shipping</h5>
+					<h6>Free shipping on all US order or order above $200</h6>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 text-center rot animate__animated animate__lightSpeedInLeft wow">
+			<img src="img\p2_120x.png" class=" mb-3">
+			<div class="w-75 ml-5 box_2">
+				<div class="car">
+					<h5>Support 24/7</h5>
+					<h6>Contact us 24 hours a day, 7 days a week</h6>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 text-center yrot animate__animated animate__lightSpeedInRight wow">
+			<img src="img\p3_120x.png" class="mb-3">
+			<div class="w-75 ml-5 box_2">
+				<div class="car">
+					<h5>7 Days Return</h5>
+					<h6>Simply return it within 7 days for an exchange.</h6>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 text-center rot animate__animated animate__lightSpeedInRight wow">
+			<img src="img\p4_120x.png" class="mb-3">
+			<div class="w-75 ml-5 box_2">
+				<div class="car">
+					<h5>Payment Secure</h5>
+					<h6>We ensure secure payment with PEV</h6>
+				</div>
+			</div>		
+		</div>
+	</div>
+</div>
+<div class="container-fluid p-0 w-100">
+	<div class="row w-100">
+		<div class="col-lg-2 col-md-12 animate__animated animate__fadeInLeftBig wow">
+			<h3 class="py-3">Face</h3><hr>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Cleansers & Toners</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Face Serums</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Moisturizers</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Eye Care</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Lip & Neck Care</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Exfoliators & Masks</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Imperfection Treatments</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Face Treatment Oils</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Daily UV Protectors</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Anti-Aging</h5></a>
+		</div>
+		<div class="col-lg-4 col-md-12 box_2 p-0 animate__animated animate__fadeInLeftBig wow">
+			<img class="car" src="img\img-banner_900x.jpg" width="100%">
+		</div>
+		<div class="col-lg-6 col-md-12 animate__animated animate__fadeInRightBig wow">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid py-5 animate__animated animate__zoomInDown wow">
+	<div class="row">
+		<div class="col-lg-4 col-md-12">
+			<div class="box">
+				<img src="img\banner_4_5f4d3c14-c9a1-4c08-811c-50a8461a70d6_540x.jpg" width="100%">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12">
+			<div class="box">
+				<img src="img\banner_5_e839b52b-1a46-4dd2-918b-6095d5f42445_540x.jpg" width="100%">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12">
+			<div class="box">
+				<img src="img\banner_6_499100d2-a4c1-4f44-9220-5d426d5bab42_540x.jpg" width="100%">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid p-0 w-100">
+	<div class="row w-100">
+		<div class="col-lg-2 col-md-12 animate__animated animate__fadeInLeftBig wow">
+			<h3 class="py-3">Face</h3><hr>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Cleansers & Toners</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Face Serums</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Moisturizers</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Eye Care</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Lip & Neck Care</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Exfoliators & Masks</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Imperfection Treatments</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Face Treatment Oils</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Daily UV Protectors</h5></a>
+			<a href="" class="rotoo"><h5 class="py-2 roboto font text-dark">Anti-Aging</h5></a>
+		</div>
+		<div class="col-lg-4 col-md-12 box_2 p-0 animate__animated animate__fadeInLeftBig wow">
+			<img class="car" src="img\img-banner_900x.jpg" width="100%">
+		</div>
+		<div class="col-lg-6 col-md-12 animate__animated animate__fadeInRightBig wow">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<a href="" class="rotoo "><div class="like mb-4 mt-2">
+						<div class="pic">
+							<div class="pic2 w-100">
+								<div class="position-absolute text-center w-100" style="line-height: 230px;">
+									<i class="far fa-heart bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-shopping-bag bg-white px-3 py-2 joy text-dark rounded"></i>
+									<i class="fas fa-eye bg-white px-3 py-2 joy text-dark rounded"></i>
+								</div>
+							</div>
+						</div><br>
+						<h5 class="roboto px-3 text-dark"><b>Hydrating Leave-On.</b></h5>
+						<h5 class="px-3 text-secondary">$84.00</h5>
+					</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid position-relative animate__animated animate__fadeInTopRight wow p-0">
+	<video autoplay muted loop width="100%" class="position-relative" style="z-index: -1;">
+		<source src="img\video.mp4" type="video/mp4">
+	</video>
+	<div class="position-absolute w-100 bory">
+		<h1 class="text-center text-white display-4"><b>Natural and organic is the future of<br> skincare and life as we know it.</b><br>
+		<i class="far fa-play-circle text-center text-white display-3"></i>
+		</h1>
+	</div>
+</div>
+<div class="container-fluid py-5">
+	<div class="row">
+		<div class="col-lg-6 col-md-12 text-center pt-5 animate__animated animate__fadeInLeftBig wow">
+			<h1 class="display-4 pt-5"><b>Prep. Correct. Perfect.</b></h1>
+			<h6 class="text-secondary py-4">Whether you have five minutes to get out the door or an hour to play, these<br> bestsellers are the key to fresh, healthy-looking skin.</h6>
+			<div class="ml-5 pl-5">
+				<button class="py-2 px-5 border border-dark d-flex gogo text-center w-50 ml-5">Organic Skincare Collection
+					<i class="fas fa-arrow-right d-none pt-2 pl-1"></i>
+				</button>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-12 animate__animated animate__fadeInRightBig wow">
+			<img src="img\banner_7_900x.jpg" width="100%">
+		</div>
+	</div>
+</div>
+<div class="container-fluid py-5 animate__animated animate__zoomInDown wow">
+	<div id="owl-demo1">
+		<div class="item w-100"><img src="img\brand_1_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_2_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_3_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_4_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_5_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_6_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_2_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_3_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_4_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_5_160x160@2x.png" width="100%"></div>
+		<div class="item w-100"><img src="img\brand_6_160x160@2x.png" width="100%"></div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__lightSpeedInLeft wow">
+			<div class="xx">
+				<div class="xx1">
+					<div class="xxx"></div>
+					<div class="xxx1 position-absolute w-100">
+						<h4 class="text-center mb-0">Eames lounge chair</h4><hr>
+						<p class="p_xx p-3 text-justify roboto">Scelerisque facilisi rhoncus non faucibus parturient senectus lobortis a ullamcorper vestibulum mi nibh ultricies a parturient gravida a vestibulum leo sem in. Est cum torquent mi in scelerisque leo aptent per at vitae ante eleifend mollis adipiscing.</p>
+					</div>
+				</div>
+				<div class="xx2 position-absolute"></div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__lightSpeedInLeft wow">
+			<div class="xx">
+				<div class="xx1">
+					<div class="xxx"></div>
+					<div class="xxx1 position-absolute w-100">
+						<h4 class="text-center mb-0">Eames lounge chair</h4><hr>
+						<p class="p_xx p-3 text-justify roboto">Scelerisque facilisi rhoncus non faucibus parturient senectus lobortis a ullamcorper vestibulum mi nibh ultricies a parturient gravida a vestibulum leo sem in. Est cum torquent mi in scelerisque leo aptent per at vitae ante eleifend mollis adipiscing.</p>
+					</div>
+				</div>
+				<div class="xx2 position-absolute"></div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__lightSpeedInRight wow">
+			<div class="xx">
+				<div class="xx1">
+					<div class="xxx"></div>
+					<div class="xxx1 position-absolute w-100">
+						<h4 class="text-center mb-0">Eames lounge chair</h4><hr>
+						<p class="p_xx p-3 text-justify roboto">Scelerisque facilisi rhoncus non faucibus parturient senectus lobortis a ullamcorper vestibulum mi nibh ultricies a parturient gravida a vestibulum leo sem in. Est cum torquent mi in scelerisque leo aptent per at vitae ante eleifend mollis adipiscing.</p>
+					</div>
+				</div>
+				<div class="xx2 position-absolute"></div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__lightSpeedInRight wow">
+			<div class="xx">
+				<div class="xx1">
+					<div class="xxx"></div>
+					<div class="xxx1 position-absolute w-100">
+						<h4 class="text-center mb-0">Eames lounge chair</h4><hr>
+						<p class="p_xx w-100 p-3 text-justify roboto">Scelerisque facilisi rhoncus non faucibus parturient senectus lobortis a ullamcorper vestibulum mi nibh ultricies a parturient gravida a vestibulum leo sem in. Est cum torquent mi in scelerisque leo aptent per at vitae ante eleifend mollis adipiscing.</p>
+					</div>
+				</div>
+				<div class="xx2 position-absolute"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid py-5 mt-5 animate__animated animate__backInUp wow">
+	<div class="row pt-5 mt-5">
+		<div class="col-lg-6 col-md-12 text-center pt-5">
+			<h1 class="display-4 pt-5"><b>Prep. Correct. Perfect.</b></h1>
+			<h6 class="text-secondary py-4">Whether you have five minutes to get out the door or an hour to play, these<br> bestsellers are the key to fresh, healthy-looking skin.</h6>
+			<div class="ml-5 pl-5">
+				<button class="py-2 px-5 border border-dark d-flex gogo text-center w-50 ml-5">Organic Skincare Collection
+					<i class="fas fa-arrow-right d-none pt-2 pl-1"></i>
+				</button>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-12 pt-5">
+			<div class="d-flex">
+				<div>
+					<img src="img\blog1_d7ced11a-a469-4c8a-ba1c-83abac9ebff3_161x246_crop_center.png">
+				</div>
+				<div>
+					<img src="img\blog2_e5c3ee54-b1ad-423c-b96b-3ab39dfce3ab_230x316_crop_center.png">
+				</div>
+				<div>
+					<img src="img\blog5_b97349ac-8e3d-44b2-b937-6231ee2390e0_190x153_crop_center.png">
+				</div>
+			</div>
+			<div class="d-flex">
+				<div>
+					<img src="img\blog3_bf3ebbe9-7604-466f-93de-050df80b463b_193x142_crop_center.png">
+				</div>
+				<div>
+					<img src="img\blog4_769314a7-12a6-4ec1-96b2-b7e0f2d217ee_197x230_crop_center.png">
+				</div>
+				<div>
+					<img src="img\blog6_7ee54706-eec3-4463-afc7-f05f1debd8a8_190x239_crop_center.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid animate__animated animate__pulse wow">
+	<div class="row">
+		<div class="col-lg-4 col-md-12 roboto text-center">
+			<h1><b>Follow Us</b></h1>
+			<h5>Be the first to know about our new arrivals and exclusive offers.</h5>
+			<h2 class="text-secondary py-5">
+				<i class="fab fa-facebook krishna"></i>
+				<i class="fab fa-instagram krishna"></i>
+				<i class="fab fa-twitter krishna"></i>
+				<i class="fab fa-pinterest krishna"></i>
+			</h2>
+		</div>
+		<div class="col-lg-4 col-md-12 roboto text-center">
+			<h1><b>Sign Up Now & Get 10% Off</b></h1>
+			<h5>Be the first to know about our new arrivals and exclusive offers.</h5>
+			<div class="d-flex">
+				<input type="e-mail" name="EMAIL" class="alert-light w-100 py-2 px-3 border border-dark" placeholder="Your email address">
+				<input type="submit" class="bg-dark text-white py-2 px-4 text-white black" value="Sign up">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12 roboto text-center">
+			<h1><b>Visit Our Store</b></h1>
+			<h5>Be the first to know about our new arrivals and exclusive offers.</h5>
+			<button class="text-center py-2 px-5 border border-white black"><b>See On Map</b>
+			</button>
+		</div>
+	</div>
+</div>
+<div class="bg-dark container-fluid">
+	<div class="container py-5">
+		<div class="row py-5">
+			<div class="col-lg-3 col-md-6 col-sm-12 text-white animate__animated animate__lightSpeedInLeft wow">
+				<h4>COMPANY</h4>
+				<h5 class="roboto krishna leftt pt-4">About Us</h5>
+				<h5 class="roboto krishna leftt">Contact</h5>
+				<h5 class="roboto krishna leftt">Store Locations</h5>
+				<h5 class="roboto krishna leftt">Careers</h5>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 text-white animate__animated animate__lightSpeedInLeft wow">
+				<h4>HELP</h4>
+				<h5 class="roboto krishna leftt pt-4">HELP</h5>
+				<h5 class="roboto krishna leftt">Contact</h5>
+				<h5 class="roboto krishna leftt">Store Locations</h5>
+				<h5 class="roboto krishna leftt">Careers</h5>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 text-white animate__animated animate__lightSpeedInRight wow">
+				<h4>STORE</h4>
+				<h5 class="roboto krishna leftt pt-4">About Us</h5>
+				<h5 class="roboto krishna leftt">Contact</h5>
+				<h5 class="roboto krishna leftt">Store Locations</h5>
+				<h5 class="roboto krishna leftt">Careers</h5>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 text-white animate__animated animate__lightSpeedInRight wow">
+				<h4>ABOUT US</h4>
+				<h5 class="roboto pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h5>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
